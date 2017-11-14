@@ -1,55 +1,37 @@
-<style>
 * {
 box-sizing: border-box;
 }
-body{
-  background-color: #f4adf3;
+
+body {
+  margin: 0;
 }
-.main-page{
-text-align: center;
-padding-top: 125px;
+
+header {
+  background: blue;
 }
-.sholom-pic{
-height: 150px;
-width: auto;
-border-radius: 200px;
-display: inline-block;
-vertical-align: middle;
-}
-.title{
-  display: inline-block;
-  padding-left: 25px;
-  font-family: 'Abel';
-  vertical-align: middle;
-  font-size: 25px;
-}
-.carousel{
-position: relative;
-width: 15%;
-margin: 110px auto 0px auto;
-background-color: red;
-}
-.languages{
-overflow: hidden;
-position: relative;
-width: 100%;
-height: 40px;
-}
-.languages ul{
-list-style: none;
-position: relative;
-width: 100%;
-height: 50px;
-margin: 0;
-padding: 0;
-}
-.language{
+
+header h1 {
   float: left;
-  font-family: 'Josefin Slab', serif;
-  font-size: 40px;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  height: 50px;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  width: 20%;
 }
-</style>
+
+header nav{
+}
+
+header nav ul {
+  display: inline-block;
+  list-style: none;
+  width: 75%;
+}
+
+header nav li {
+  display: inline-block;
+  width: 24%;
+  border: solid 1px black;
+  text-align: center;
+  padding: 10px 0px;
+  background: red;
+  border-radius: 10px
+}
