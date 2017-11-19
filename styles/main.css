@@ -37,3 +37,19 @@ header nav li {
   border-radius: 10px;
   margin: 0px 10px;
 }
+
+.about{
+  margin: 100px 20% 0px 20%;
+}
+
+img.me{
+  border-radius: 8px;
+  float: left;
+  width: 50%;
+}
+
+div p{
+  float: left;
+  padding-left: 10px;
+  width: 50%;
+}
