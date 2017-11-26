@@ -4,10 +4,12 @@ box-sizing: border-box;
 
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
-  background: green;
+  background-color: #ff5722;
+  color: #000000;
   overflow: auto;
   position: sticky; top: 0px;
 }
@@ -15,16 +17,16 @@ header {
 header h1 {
   float: left;
   margin: 0;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 20px 0px 20px;
 }
 
 header nav{
   margin-right: 7%;
+  float: right;
 }
 
 header nav ul {
   display: inline-block;
-  float: right;
   list-style: none;
 }
 
@@ -32,14 +34,36 @@ header nav li {
   display: inline-block;
   border: solid 1px black;
   text-align: center;
-  padding: 10px 10px;
+  padding: 5px 10px;
   background: transparent;
-  border-radius: 10px;
   margin: 0px 10px;
 }
 
+.content{
+  text-align: center;
+  margin-top: 75px;
+}
+
+.title{
+  font-size: 3.2rem;
+  line-height: 1.4;
+  display: block;
+  color: #252a30;
+  text-align: center;
+}
+
+.languages{
+  margin-top: 200px;
+}
+
+.languages li{
+  display: inline-block;
+  margin: 0px 5%;
+  font-size: 25px;
+}
+
 .about{
-  margin: 100px 20% 0px 20%;
+  margin: 80px 20% 0px 20%;
 }
 
 img.me{
@@ -48,8 +72,21 @@ img.me{
   width: 50%;
 }
 
-div p{
+.about p{
   float: left;
   padding-left: 10px;
   width: 50%;
+  font-size: 20px;
+}
+
+.projects h1{
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.social-links a{
+  overflow: auto;
+  height: 100px;
+  width: 100px;
+  margin: 0px 20px;
 }
